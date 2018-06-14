@@ -1,6 +1,27 @@
 import React, { Component } from "react";
 import ThankYouAlert from "./ThankYouAlert";
 import { Button, Input, InputGroup, Form, FormGroup, Label } from "reactstrap";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
+const url = "https://innovationdrive.us18.list-manage.com/subscribe/post";
+
+// simplest form (only email)
+const SimpleForm = () => <MailchimpSubscribe url={url}/>
+
+// use the render prop and your custom form
+const CustomForm = () => (
+  <MailchimpSubscribe
+    url={url}
+    render={({ subscribe, status, message }) => (
+      <div>
+        <EmailForm onSubmitted={formData => subscribe(formData)} />
+        {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+        {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
+        {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
+      </div>
+    )}
+  />
+)
 
 export default class EmailForm extends React.Component {
   render() {
@@ -11,7 +32,7 @@ export default class EmailForm extends React.Component {
           <FormGroup>
             <Input
               type="email"
-              name="email"
+              name="MERGE0"
               id="exampleEmail"
               placeholder="Email"
             />
@@ -20,13 +41,13 @@ export default class EmailForm extends React.Component {
           <FormGroup>
             <Input
               type="textarea"
-              name="text"
+              name="MERGE8"
               id="exampleText"
               placeholder="tell us a little about your idea without giving much away"
             />
           </FormGroup>
           <div data-netlify-recaptcha />
-          <Button color="success" onclick={ThankYouAlert} type="submit">Send</Button>
+          <Button color="success" onclick={ThankYouAlert} type="submit" >Send</Button>
         </Form>
       </div>
     );

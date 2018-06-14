@@ -6,12 +6,13 @@
 
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
-  min-height: 55px;
-  max-height: 78.2px;
+  height: 78.2px;
 
 }
 
-
+.WhatIs {
+  font-family: 'Roboto';
+}
 
 
 

@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 // import HeadNavbar from "./components/Navbar";
 import Drift from "./components/Drift";
-import AboveTheFold from "./layouts/AboveTheFold"
+import AboveTheFold from "./layouts/AboveTheFold";
+import WhatIs from "./layouts/WhatIs?"
 // Make this DRY ~ DO NOT REPEAT YOURSELF
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         {/* Above the fold but below navbar */}
         {/* FIX BACKground image to only render before scroll on mobile/web */}
         {/* BELOW THE FOLD */}
+        <WhatIs/>
         <Drift />
       </div>
     );
