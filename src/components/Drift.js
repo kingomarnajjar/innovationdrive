@@ -4,8 +4,8 @@ export default class Drift extends React.Component {
     render() {
       return (
         <div className="Drift">
-            Add Drift here
-            "use strict";
+            {/* Add Drift here
+            "use strict"; */}
 
 {/* !function() {
   var t = window.driftt = window.drift = window.driftt || [];
