@@ -26,7 +26,7 @@ export default class EmailForm extends React.Component {
             />
           </FormGroup>
           <div data-netlify-recaptcha />
-          <Button color="success" type="submit">Send</Button>
+          <Button color="success" onclick={ThankYouAlert} type="submit">Send</Button>
         </Form>
       </div>
     );
