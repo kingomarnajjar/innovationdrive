@@ -4,7 +4,7 @@ export default class Drift extends React.Component {
     render() {
       return (
         <div className="Drift">
-            onClick
+            Add Drift here
         </div>
       );
     }

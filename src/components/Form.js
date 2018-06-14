@@ -1,28 +1,36 @@
 import React, { Component } from "react";
 import ThankYouAlert from "./ThankYouAlert";
+import { Button, Input, InputGroup, Form, FormGroup, Label } from "reactstrap";
 
-export default class Form extends React.Component {
-render() {
+export default class EmailForm extends React.Component {
+  render() {
     return (
+      <div>
+        <Form method="POST" netlify="true">
+        <h1>Free Video Consultation </h1>
+          <FormGroup>
+            <Input
+              type="email"
+              name="email"
+              id="exampleEmail"
+              placeholder="Email"
+            />
+          </FormGroup>
 
-    <div>
-    <form name="contact" method="POST" netlify>
-    <p>
-        <label>Email: <input type="text" name="name" /></label>
-    </p>
-    <p>
-        <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <div data-netlify-recaptcha></div>
-    <p>
-    <button type="submit" >Send</button>
-     </p>
-    </form>
-    </div>
-
-
-        );
-    }
+          <FormGroup>
+            <Input
+              type="textarea"
+              name="text"
+              id="exampleText"
+              placeholder="tell us a little about your idea without giving much away"
+            />
+          </FormGroup>
+          <div data-netlify-recaptcha />
+          <Button color="success" type="submit">Send</Button>
+        </Form>
+      </div>
+    );
+  }
 }
 
 // the logic is sign up to recieve free video consultation and invention workbook

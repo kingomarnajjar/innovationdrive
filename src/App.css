@@ -1,13 +1,19 @@
 .App {
   text-align: center;
-  background-image: url("./kidRocket.jpg");
+
 
 }
 
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
-  height: 80px;
+  min-height: 55px;
+  max-height: 78.2px;
+
 }
+
+
+
+
 
 /* .App-header {
   background-color: #222;
