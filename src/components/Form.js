@@ -6,7 +6,7 @@ export default class EmailForm extends React.Component {
   render() {
     return (
       <div>
-        <Form method="POST" netlify>
+        <Form method="POST" netlify="true">
         <h1>Free Video Consultation </h1>
           <FormGroup>
             <Input
