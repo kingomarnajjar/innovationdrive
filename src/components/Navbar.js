@@ -1,4 +1,4 @@
-import React, { Component }from 'react';
+import React, { Component } from 'react';
 import {
   Collapse,
   Navbar,
@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-  import logo from "../logo.png";
+  import logo from '../logo.png';
 
 export default class HeadNavbar extends React.Component {
   constructor(props) {
@@ -30,14 +30,15 @@ export default class HeadNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar className="clearfix" light expand="md">
           <NavbarBrand href="/">
           <img src={logo} className="App-logo" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+            <button className="btn btn-danger float-right">Download Invention Workbook</button>
+              {/* <NavItem>
                 <NavLink href="/components/">Resources</NavLink>
               </NavItem>
               <NavItem>
@@ -59,7 +60,7 @@ export default class HeadNavbar extends React.Component {
                     Reset
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
             </Nav>
           </Collapse>
         </Navbar>
