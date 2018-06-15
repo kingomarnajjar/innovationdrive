@@ -41,7 +41,7 @@ export default class EmailForm extends React.Component {
 
           <FormGroup>
             <Input
-              type="text"
+              type="textarea"
               name="idea"
               id="exampleText"
               placeholder="tell us a little about your idea without giving much away"
