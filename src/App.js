@@ -3,7 +3,7 @@ import "./App.css";
 // import HeadNavbar from "./components/Navbar";
 import Drift from "./components/Drift";
 import AboveTheFold from "./layouts/AboveTheFold";
-import WhatIs from "./layouts/WhatIs?"
+import WhatIs from "./layouts/WhatIs"
 // Make this DRY ~ DO NOT REPEAT YOURSELF
 
 class App extends Component {
