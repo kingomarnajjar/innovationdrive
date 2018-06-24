@@ -11,9 +11,9 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-  import logo from '../logo.png';
+  import logo from '../images/logo.png';
 
-export default class HeadNavbar extends React.Component {
+export default class HeadNavbar extends Component {
   constructor(props) {
     super(props);
 
@@ -30,19 +30,22 @@ export default class HeadNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="clearfix" light expand="md">
+        <Navbar className="navbar clearfix" light expand="md">
           <NavbarBrand href="/">
           <img src={logo} className="App-logo" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
+
           <Collapse isOpen={this.state.isOpen} navbar>
+          <Nav>
+            </Nav>
             <Nav className="ml-auto" navbar>
+            <NavLink href="https://innovationdrive/who-are-we"> Team </NavLink>
+            <NavLink href="https://innovationdrive/blog"> Blog </NavLink>
             <button className="btn btn-danger float-right">Download Invention Workbook</button>
-              {/* <NavItem>
-                <NavLink href="/components/">Resources</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+
+              {/* <NavItem> */}
+                {/* <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

@@ -1,0 +1,37 @@
+.backgroundContainer {
+  /* background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/light-green-background-images-for-websites-6.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  /* background-position: center; */
+  /* width: 100%; */
+  /* height: auto; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.firstContainer {
+  /* background-image: url("../kidRocket.jpg"); */
+  /* background-size: cover; */
+  /* /* max-width: 100%; */
+  /* height: 100%; */
+  /* background-repeat: no-repeat;
+      background-size: contain; */
+  /* background-repeat: no-repeat;
+      background-size: 100% 90%; */
+}
+
+.responsive {
+}
+
+.CTA {
+  align-items: center;
+  color: red;
+}
+
+.navbar {
+  /* background: rgb(255, 255, 255);  fallback for old browsers */
+  /* background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/light-green-background-images-for-websites-6.jpg"); */
+
+}
+

@@ -1,21 +1,23 @@
 import React, { Component } from "react";
 import "./App.css";
 // import HeadNavbar from "./components/Navbar";
-import Drift from "./components/Drift";
-import AboveTheFold from "./layouts/AboveTheFold";
+import DriftChat from "./components/Drift";
+import Homepage from "./pages/Homepage";
 import WhatIs from "./layouts/WhatIs"
+import Footer from "./components/Footer";
 // Make this DRY ~ DO NOT REPEAT YOURSELF
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <AboveTheFold />
+        <Homepage />
         {/* Above the fold but below navbar */}
         {/* FIX BACKground image to only render before scroll on mobile/web */}
         {/* BELOW THE FOLD */}
-        <WhatIs/>
-        <Drift />
+        {/* <WhatIs/> */}
+        <Footer />
+        <DriftChat />
       </div>
     );
   }
