@@ -4,8 +4,8 @@ import styles from "./index.css";
 
 import EmailForm from "/Users/omar/Desktop/innovationDrive/innovation-drive/src/components/Form.js";
 // import "./AboveTheFold.css";
-import HeadNavbar from "/Users/omar/Desktop/innovationDrive/innovation-drive/src/components/Navbar.js";
-import ModalExample from "/Users/omar/Desktop/innovationDrive/innovation-drive/src/components/PopUpSignUp.js";
+import HeadNavbar from "../../src/components/Navbar.js";
+import ModalExample from "../../components/PopUpSignUp.js";
 // /Users/omar/Desktop/innovationDrive/innovation-drive/src/components/Form.js
 
 export default class Homepage extends Component {
