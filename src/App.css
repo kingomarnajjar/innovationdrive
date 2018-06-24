@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  background-color: #FCFCFC;
-
+  background-color: #F3EFE9;
+  font-family: 'Roboto';
+  /* background-color: beige */
 }
 
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
-  height: 78.2px;
+  height: 9.5vh;
 
 }
 

@@ -13,14 +13,14 @@ export default class Footer extends Component {
       //   </div>
       // </footer>
       <Container style={FooterStyle}>
-        <a href="#CTA">Back to top</a>
+        <a href="#top">Back to top</a>
 
         <Row>
           {" "}
           <Col>
             {" "}
             <p>
-              © 2017 Company, Inc. | <a href="#">Privacy</a> |{" "}
+            Copyright ©2018, Innovation Drive, Inc. - All rights reserved | <a href="#">Privacy</a> |{" "}
               <a href="#">Terms</a>{" "}
             </p>{" "}
           </Col>
