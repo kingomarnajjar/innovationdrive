@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import styles from "./index.css";
 
-import EmailForm from "/Users/omar/Desktop/innovationDrive/innovation-drive/src/components/Form.js";
 // import "./AboveTheFold.css";
 import HeadNavbar from "../../src/components/Navbar.js";
 import ModalExample from "../../components/PopUpSignUp.js";
