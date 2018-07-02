@@ -41,7 +41,8 @@ export default class HeadNavbar extends Component {
             </Nav>
             <Nav className="ml-auto" navbar>
             <NavLink href="https://innovationdrive/who-are-we"> Team </NavLink>
-            <NavLink href="https://innovationdrive/blog"> Blog </NavLink>
+            <NavLink href="https://secretmakerfan.tumblr.com/post/175462362450/how-to-make-a-physical-product-guide"> Blog </NavLink>
+            <NavLink href="https://innovationdrive/sign-in"> Sign In </NavLink>
             <button className="btn btn-danger float-right">Download Invention Workbook</button>
 
               {/* <NavItem> */}

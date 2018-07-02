@@ -13,7 +13,7 @@ const MainJumbotron = props => {
         </p>
         <hr className="my-2" />
         <p>
-          Don't live a life of regret seeing your probably shitty idea go to
+          Don't live a life of regret seeing your idea go to
           market whilst you sat on your laurels.
         </p>
         <p className="lead">

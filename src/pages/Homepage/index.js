@@ -7,6 +7,8 @@ import HeadNavbar from "../../components/Navbar.js";
 import ModalExample from "../../components/PopUpSignUp.js";
 import MainJumbotron from "../../components/Jumbotron";
 import InventionProcessDeck from "../../components/Decks";
+import ClientStories from "../../components/clientStories";
+
 // /Users/omar/Desktop/innovationDrive/innovation-drive/src/components/Form.js
 
 export default class Homepage extends Component {
@@ -20,24 +22,6 @@ export default class Homepage extends Component {
           </Container>
 
           <Container>
-            {/* <Row> <img src={require('../kidRocket.jpg')} /> </Row> */}
-            <h3>The Invention Process</h3>
-            <Row className="">
-              {/* ADD BOOTSRAP CARDS HERE */}
-              <Col xs="12" sm="4">
-                <p>Product Design</p>
-                {/* ADD BOOTSRAP CARD HERE */}
-              </Col>
-
-              <Col xs="12" sm="4">
-                <p> Rapid Prototyping </p>
-              </Col>
-              <Col xs="12" sm="4">
-                <p>Manufacturing </p>
-              </Col>
-            </Row>
-          </Container>
-          <Container>
             <h1>Customer Journey</h1>
             {/* ADD BOOTSRAP CAROUSEL HERE */}
           </Container>
@@ -46,9 +30,25 @@ export default class Homepage extends Component {
             {/* ADD BOOTSRAP CAROUSEL HERE */}
           </Container>
           <Container />
-
         </div>
+        <Container>
+          <ClientStories />
+        </Container>
+       <br/>
+       <br/>
         <InventionProcessDeck />
+        <Container className="YellowStyling">
+          <Row>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </Row>
+        </Container>
       </div>
     );
   }

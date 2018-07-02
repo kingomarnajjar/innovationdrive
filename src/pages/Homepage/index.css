@@ -10,7 +10,10 @@
   background-position: center center;
 }
 
-
+.YellowStyling {
+  background-color: #fad563;
+  /* background-size: 100% 100%; */
+}
 
 .InventionStyle {
   text-align: center;
@@ -27,13 +30,20 @@
 .navbar {
   /* background: rgb(255, 255, 255);  fallback for old browsers */
   /* background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/light-green-background-images-for-websites-6.jpg"); */
-
 }
 
 .JumbotronStyle {
   /* background-image: url("../../images/kidRocket.jpg"); */
   /* background-size: cover; */
   /* background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */
-/* background-color: beige */
-background: none;
+  /* background-color: beige */
+  background: none;
+}
+
+.card {
+  color: black;
+  /* color: inherit; */
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-color: black;
 }
