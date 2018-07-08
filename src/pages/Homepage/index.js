@@ -50,23 +50,23 @@ export default class Homepage extends Component {
             <br />
           </Row>
         </Container> */}
+        <br />
+        <br />
         <Container className="Logos">
           <Row>
             {/* ADD LOGOS HERE */}
-            <img
-              src={kickstarterLogo}
-              className="kickstarter-logo"
-              alt="logo"
-            />
+            <Col>
               <img
-              src={haizolLogo}
-              className="kickstarter-logo"
-              alt="logo"
-            />
+                src={kickstarterLogo}
+                className="kickstarter-logo"
+                alt="logo"
+              />
+            </Col>
+            <Col>
+              <img src={haizolLogo} className="haizol-logo" alt="logo" />
+            </Col>
           </Row>
-          <Row>
-
-          </Row>
+          <Row />
         </Container>
       </div>
     );
