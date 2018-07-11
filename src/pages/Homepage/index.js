@@ -57,7 +57,7 @@ export default class Homepage extends Component {
           <Row>
             {/* ADD LOGOS HERE */}
             <Col>
-              <a href="https://www.kickstarter.com" > <img
+              <a href="https://www.kickstarter.com" target="_blank"> <img
                 src={kickstarterLogo}
                 className="kickstarter-logo"
                 alt="logo"
@@ -65,7 +65,7 @@ export default class Homepage extends Component {
             </a>
             </Col>
             <Col>
-            <a href="https://www.haizol.com" >
+            <a href="https://www.haizol.com" target="_blank">
               <img src={haizolLogo} className="haizol-logo" alt="logo" />
               </a>
             </Col>
