@@ -5,6 +5,8 @@ import DriftChat from "./components/Drift";
 import Homepage from "./pages/Homepage";
 import WhatIs from "./layouts/WhatIs"
 import Footer from "./components/Footer";
+
+
 // Make this DRY ~ DO NOT REPEAT YOURSELF
 
 class App extends Component {
@@ -18,6 +20,7 @@ class App extends Component {
         {/* <WhatIs/> */}
         <Footer />
         <DriftChat />
+        R
       </div>
     );
   }
