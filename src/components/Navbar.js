@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   Collapse,
   Navbar,
@@ -10,8 +10,16 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
-  import logo from '../images/logo.png';
+  DropdownItem
+} from "reactstrap";
+import logo from "../images/logo.png";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
+import Team from "./Team";
 
 export default class HeadNavbar extends Component {
   constructor(props) {
@@ -32,20 +40,31 @@ export default class HeadNavbar extends Component {
       <div id="top">
         <Navbar className="navbar clearfix" light expand="md">
           <NavbarBrand href="/">
-          <img src={logo} className="App-logo" alt="logo" />
+            <img src={logo} className="App-logo" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
 
           <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav>
-            </Nav>
-            <Nav className="ml-auto" navbar>
-            <NavLink href="https://innovationdrive/who-are-we"> Team </NavLink>
-            <NavLink href="https://secretmakerfan.tumblr.com/post/175462362450/how-to-make-a-physical-product-guide"> Blog </NavLink>
-            <NavLink href="https://innovationdrive/sign-in"> Sign In </NavLink>
-            <button className="btn btn-danger float-right">Download Invention Workbook</button>
+            <Nav />
+            <Router>
+              <Nav className="ml-auto" navbar>
+                <NavLink>
+                  <Link to="/team" replace >Team</Link>
+                </NavLink>
 
-              {/* <NavItem> */}
+                <NavLink href="https://secretmakerfan.tumblr.com/post/175462362450/how-to-make-a-physical-product-guide">
+                  {" "}
+                  Blog{" "}
+                </NavLink>
+                <NavLink href="https://innovationdrive/sign-in">
+                  {" "}
+                  Sign In{" "}
+                </NavLink>
+                <button className="btn btn-danger float-right">
+                  Download Invention Workbook
+                </button>
+
+                {/* <NavItem> */}
                 {/* <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
@@ -65,7 +84,8 @@ export default class HeadNavbar extends Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown> */}
-            </Nav>
+              </Nav>
+            </Router>
           </Collapse>
         </Navbar>
       </div>

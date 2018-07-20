@@ -7,7 +7,7 @@ export default class EmailForm extends Component {
     return (
       <div className="Form">
         <Form action="https://formspree.io/contact@innovationdrive.com.au" method="POST">
-          <h1>Free video consultation</h1>
+          <h1>Free consultation</h1>
           <FormGroup>
             <Input
               type="fullname"
