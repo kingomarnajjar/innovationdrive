@@ -13,12 +13,12 @@ import {
   DropdownItem
 } from "reactstrap";
 import logo from "../images/logo.png";
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Link,
-//   Redirect
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 import Team from "./Team";
 
 export default class HeadNavbar extends Component {

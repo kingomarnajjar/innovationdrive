@@ -1,10 +1,11 @@
 {
-  "main.css": "static/css/main.51954a02.css",
-  "main.css.map": "static/css/main.51954a02.css.map",
-  "main.js": "static/js/main.e24fb0f1.js",
-  "main.js.map": "static/js/main.e24fb0f1.js.map",
+  "main.css": "static/css/main.d3b2207e.css",
+  "main.css.map": "static/css/main.d3b2207e.css.map",
+  "main.js": "static/js/main.b1b7d9ea.js",
+  "main.js.map": "static/js/main.b1b7d9ea.js.map",
   "static/media/kickstarter-logo.png": "static/media/kickstarter-logo.bc457d4b.png",
   "static/media/logo.png": "static/media/logo.02d8090d.png",
+  "static/media/omar.jpeg": "static/media/omar.2637c548.jpeg",
   "static/media/roboto-latin-100.woff": "static/media/roboto-latin-100.e9dbbe8a.woff",
   "static/media/roboto-latin-100.woff2": "static/media/roboto-latin-100.987b8457.woff2",
   "static/media/roboto-latin-100italic.woff": "static/media/roboto-latin-100italic.d704bb3d.woff",
@@ -28,5 +29,6 @@
   "static/media/roboto-latin-900.woff": "static/media/roboto-latin-900.8c2ade50.woff",
   "static/media/roboto-latin-900.woff2": "static/media/roboto-latin-900.19b7a0ad.woff2",
   "static/media/roboto-latin-900italic.woff": "static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/media/roboto-latin-900italic.woff2": "static/media/roboto-latin-900italic.7b770d6c.woff2"
+  "static/media/roboto-latin-900italic.woff2": "static/media/roboto-latin-900italic.7b770d6c.woff2",
+  "static/media/sayee.jpeg": "static/media/sayee.7d34629d.jpeg"
 }
