@@ -19,7 +19,9 @@ const BasicExample = () => (
       <hr />
 
       <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/team" component={Team} />
+      <Route path="/topics" component={Topics} />
       <Route path="/topics" component={Topics} />
     </div>
   </Router>
