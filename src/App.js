@@ -31,7 +31,7 @@ class App extends Component {
             {/* <Redirect to="/blog" /> */}
 
             <Route path="/team" component={Team} />
-            <Route component={Error} />
+            {/* <Route component={Error} /> */}
           </Switch>
           <Footer />
           <DriftChat />
