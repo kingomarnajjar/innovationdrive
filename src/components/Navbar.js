@@ -52,7 +52,7 @@ export default class HeadNavbar extends Component {
                   <Link to="/team" replace >Team</Link>
                 </NavLink>
 
-                <NavLink href="www.blog.innovationdrive.co">
+                <NavLink href="blog.innovationdrive.co">
                   Blog
                 </NavLink>
                 <NavLink href="https://innovationdrive/sign-in">
