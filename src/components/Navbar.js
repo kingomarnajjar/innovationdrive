@@ -52,13 +52,11 @@ export default class HeadNavbar extends Component {
                   <Link to="/team" replace >Team</Link>
                 </NavLink>
 
-                <NavLink href="https://secretmakerfan.tumblr.com/post/175462362450/how-to-make-a-physical-product-guide">
-                  {" "}
-                  Blog{" "}
+                <NavLink href="https://blog.innovationdrive.co">
+                  Blog
                 </NavLink>
                 <NavLink href="https://innovationdrive/sign-in">
-                  {" "}
-                  Sign In{" "}
+                  Sign In
                 </NavLink>
                 <button className="btn btn-danger float-right">
                   Download Invention Workbook
