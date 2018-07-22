@@ -13,13 +13,7 @@ import {
   DropdownItem
 } from "reactstrap";
 import logo from "../images/logo.png";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Redirect
-} from "react-router-dom";
-import Team from "./Team";
+// import Team from "./Team";
 
 export default class HeadNavbar extends Component {
   constructor(props) {
@@ -45,11 +39,9 @@ export default class HeadNavbar extends Component {
           <NavbarToggler onClick={this.toggle} />
 
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav />
-            <Router>
               <Nav className="ml-auto" navbar>
-                <NavLink>
-                  <Link to="/team" replace >Team</Link>
+                <NavLink href="https://www.innovationdrive.co/team">
+                  Team
                 </NavLink>
 
                 <NavLink href="https://blog.innovationdrive.co">
@@ -83,7 +75,6 @@ export default class HeadNavbar extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown> */}
               </Nav>
-            </Router>
           </Collapse>
         </Navbar>
       </div>
