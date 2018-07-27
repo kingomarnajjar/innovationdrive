@@ -62,8 +62,11 @@ class ImageViewer extends Component {
         {this.state && <S3Image path={this.state.path} /> }
         {/* {this.state && console.log(this) } */}
 
-        {/* <input type="file" onChange={this.handleUpload.bind(this)} />
-        { this.state && <S3Image path={this.state.path} /> } */}
+        {/* X = uploadtos3()
+
+        Itemfile ={“file” : x}
+
+        Dynamodb.put_item(Item= Itemfile) */}
       </div>
     );
   }
