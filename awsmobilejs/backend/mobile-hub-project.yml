@@ -37,17 +37,16 @@ features:
           open-id-provider-url: 'https://accounts.google.com'
       sign-in-user-pools: !com.amazonaws.mobilehub.v0.UserPoolsIdentityProvider 
         attributes:
-          alias-attributes:
-            - email
-            - phone_number
-          mfa-configuration: ON
+          mfa-configuration: OFF
           name: userpool
           password-policy: !com.amazonaws.mobilehub.ConvertibleMap 
             min-length: '8'
-            require-lower-case: true
-            require-numbers: true
-            require-symbols: true
-            require-upper-case: true
+            require-lower-case: false
+            require-numbers: false
+            require-symbols: false
+            require-upper-case: false
+          standard-attributes: '[]'
+          username-attributes: '["email","phone_number"]'
   user-files: !com.amazonaws.mobilehub.v0.UserFiles 
     attributes:
       enabled: true

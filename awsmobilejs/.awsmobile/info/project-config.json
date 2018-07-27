@@ -2,5 +2,5 @@
 	"SourceDir": "src",
 	"DistributionDir": "build",
 	"BuildCommand": "yarn react-scripts build",
-	"StartCommand": "yarnpkg react-scripts start"
+	"StartCommand": "yarn react-scripts start"
 }
