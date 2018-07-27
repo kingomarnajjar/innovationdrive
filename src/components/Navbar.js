@@ -53,7 +53,7 @@ export default class HeadNavbar extends Component {
                 <NavLink href="https://blog.innovationdrive.co">
                   Blog
                 </NavLink>
-                <NavLink href="https://innovationdrive/sign-in">
+                <NavLink href="https://app.innovationdrive.co">
                   Sign In
                 </NavLink>
                 <button className="btn btn-danger float-right">
