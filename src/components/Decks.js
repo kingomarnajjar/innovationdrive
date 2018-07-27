@@ -15,7 +15,7 @@ const InventionProcessDeck = props => {
     <CardDeck>
       <Card>
         <a
-          href="http://bokardo.com/principles-of-product-design/"
+          // href="http://bokardo.com/principles-of-product-design/"
           style={{ textDecoration: "none" }}
           class="card"
         >
@@ -40,7 +40,7 @@ const InventionProcessDeck = props => {
       </Card>
       <Card>
         <a
-          href="https://www.w3schools.com/html/"
+          // href="https://www.w3schools.com/html/"
           style={{ textDecoration: "none" }}
           class="card"
         >
@@ -72,7 +72,7 @@ const InventionProcessDeck = props => {
       </Card>
       <Card>
         <a
-          href="https://www.w3schools.com/html/"
+          // href="https://www.w3schools.com/html/"
           style={{ textDecoration: "none" }}
           class="card"
         >
