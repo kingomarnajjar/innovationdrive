@@ -8,13 +8,15 @@ import HeadNavbar from "../../components/Navbar.js";
 import ModalExample from "../../components/PopUpSignUp.js";
 import MainJumbotron from "../../components/Jumbotron";
 import InventionProcessDeck from "../../components/Decks";
-import ClientStories from "../../components/clientStories";
+import Pitch from "../../components/clientStories";
 import kickstarterLogo from "../../images/kickstarter-logo.png";
 import haizolLogo from "../../images/haizol-logo.png";
 import sayee from "../../images/sayee.jpeg";
 import omar from "../../images/omar.jpeg";
 import HelloSign from "../../components/HelloSign";
 import StateButton from "../../components/StateButton";
+import MailChimpForm from "../../components/mailchimpForm"
+
 
 
 // /Users/omar/Desktop/innovationDrive/innovation-drive/src/components/Form.js
@@ -25,12 +27,14 @@ export default class Homepage extends Component {
       <div>
         <div className="backgroundContainer">
           {/* <HeadNavbar /> */}
+          {/* NDA  */}
+          {/* <iframe src="https://docs.google.com/document/d/e/2PACX-1vQAYdjs9PouC2hc4rLCHOoa9cYAuuXEnNAq5H0tQ1X94K4rtCQYKqmG62aVGdWZIHemwlEAzJ4beqDZ/pub?embedded=true" width="300px" height="400px" ></iframe> */}
           <Container>
             <MainJumbotron />
           </Container>
-
+          {/* <MailChimpForm /> */}
           <Container>
-            <h1>Customer Journey</h1>
+            {/* <h1>Customer Journey</h1> */}
             {/* ADD BOOTSRAP CAROUSEL HERE */}
           </Container>
           <Container>
@@ -40,11 +44,11 @@ export default class Homepage extends Component {
           <Container />
         </div>
         <Container>
-          <ClientStories />
+          <Pitch />
         </Container>
         <br />
         <br />
-        <InventionProcessDeck />
+        {/* <InventionProcessDeck /> */}
         {/* <Container className="YellowStyling">
           <Row>
             <br />
@@ -57,6 +61,10 @@ export default class Homepage extends Component {
             <br />
           </Row>
         </Container> */}
+        <br />
+        <br />
+        <ModalExample />
+        <br />
         <br />
         <br />
         <Container className="Logos">

@@ -44,13 +44,14 @@ const InventionProcessDeck = props => {
           style={{ textDecoration: "none" }}
           class="card"
         >
-          <CardImg
-            top
-            width="414px"
-            height="414px"
-            src="https://i.pinimg.com/736x/72/47/b6/7247b66abf6ef7ae84eb6fd7b9bf2273--d-prints-d-models.jpg"
-            alt="Card image cap"
-          />
+          <CardText style={{ width: "100%", border: "5px solid pink" }}>
+              <iframe
+                src="https://www.youtube.com/embed/oDdOqLblmVQ"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+              />
+            </CardText>
           <CardBody>
             <CardTitle>Rapid Prototyping</CardTitle>
             <CardText>
@@ -59,14 +60,7 @@ const InventionProcessDeck = props => {
               three-dimensional computer aided design (CAD) data.
               {/* Link to page with video explaining what it is and how it works */}
             </CardText>
-            <CardText width="100%">
-              <iframe
-                src="https://www.youtube.com/embed/oDdOqLblmVQ"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-              />
-            </CardText>
+
           </CardBody>
         </a>
       </Card>
@@ -96,5 +90,6 @@ const InventionProcessDeck = props => {
     </CardDeck>
   );
 };
+
 
 export default InventionProcessDeck;

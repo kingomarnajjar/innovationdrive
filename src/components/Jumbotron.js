@@ -8,8 +8,9 @@ const MainJumbotron = props => {
       <Jumbotron className="JumbotronStyle">
         <h1 className="display-3">Invention Pad</h1>
         <p className="lead">
-          We take you on a journey to create your physical product idea into a
-          reality and commercialise it, all with you keeping your IP.
+          We partner with you to create your physical product idea into a
+          reality and commercialise it, all with you keeping your Intellectual Property.
+          We have experts in product design, prototyping and manufacturing.
         </p>
         <hr className="my-2" />
         <p>

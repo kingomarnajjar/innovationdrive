@@ -23,6 +23,8 @@ class App extends Component {
           {/* BELOW THE FOLD */}
           {/* <WhatIs/> */}
           <HeadNavbar />
+          <br />
+          <br />
           <Switch>
             <Route path="/" component={Homepage} exact />
             <Route path="/team" component={Team} />

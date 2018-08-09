@@ -27,18 +27,21 @@ export default class HeadNavbar extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+
     };
   }
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: !this.state.isOpen,
+
+
     });
   }
   render() {
     return (
       <div id="top">
-        <Navbar className="navbar clearfix" light expand="md">
+        <Navbar className="navbar" light expand="md" fixed={`top`}>
           <NavbarBrand href="/">
             <img src={logo} className="App-logo" alt="logo" />
           </NavbarBrand>
@@ -46,6 +49,9 @@ export default class HeadNavbar extends Component {
 
           <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
+                <NavLink>
+                  <p> <a href="mailto:contact@innovationdrive.co?Subject=Hello%20again" target="_top">contact@innovationdrive.co</a></p>
+                </NavLink>
                 <NavLink>
                   <Link to="/team" replace >Team</Link>
                 </NavLink>
@@ -56,9 +62,9 @@ export default class HeadNavbar extends Component {
                 <NavLink href="https://app.innovationdrive.co">
                   Sign In
                 </NavLink>
-                <button className="btn btn-danger float-right">
+                {/* <button className="btn btn-danger float-right">
                   Download Invention Workbook
-                </button>
+                </button> */}
 
                 {/* <NavItem> */}
                 {/* <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>

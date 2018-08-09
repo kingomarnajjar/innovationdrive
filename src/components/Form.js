@@ -24,6 +24,14 @@ export default class EmailForm extends Component {
               placeholder="Email"
             />
           </FormGroup>
+          <FormGroup>
+            <Input
+              type="phone"
+              name="phone"
+              id="examplePhone"
+              placeholder="Phone"
+            />
+          </FormGroup>
 
           <FormGroup>
             <Input
