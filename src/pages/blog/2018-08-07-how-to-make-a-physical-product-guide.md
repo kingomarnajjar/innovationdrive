@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: How to make a physical product guide
+title: 'Guide: How to make a physical product'
 date: '2018-08-07T02:13:33+10:00'
 description: 'Guide:'
 tags:
